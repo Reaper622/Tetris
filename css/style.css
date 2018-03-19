@@ -1,0 +1,79 @@
+.game{
+	width: 200px;
+	height: 400px;
+	background-color: #F2FAFF;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue;
+	position: absolute;
+	top: 150px;
+	left: 510px;
+}
+.next{
+	width: 80px;
+	height: 80px;
+	background-color: #F2FAFF;
+	position: absolute;
+	top: 150px;
+	left: 750px;
+	border: 1px solid blue;
+}
+.info{
+	position: absolute;
+	top: 260px;
+	left: 750px;
+}
+.none,.current,.done{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	box-sizing: border-box;  //有border依然是20X20
+}
+.none{
+	background-color: #F2FAFF;
+}
+.current{
+	background-color: pink;
+	border:1px solid red;
+}
+.done{
+	background-color: gray;
+	border: 1px solid black;
+}
+.tips{
+	position: absolute;
+	width: 400px;
+	height:200px;
+	top: 100px;
+	left: 900px;
+}
+.tapbutton{
+	position: absolute;
+	top: 600px;
+	left: 450px;
+	background-color: #84c1ff;
+	width: 660px;
+	height: 440px;
+	color: white;
+	font-size: 150px;
+	text-align: center;
+}
+.tap{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: #ff7575;
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+}
+#tapleft{
+	left: 0;
+	top: 110PX;
+}
+.bg{
+	width: 1920px;
+	height: 960px;
+	background-image:url('shanshui.png') no-repeat;
+}
